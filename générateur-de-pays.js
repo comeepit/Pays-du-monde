@@ -11,5 +11,6 @@ function redirectToRandomPage() {
   const randomPage = pageList[randomIndex];
 
   // Rediriger l'utilisateur vers la page sélectionnée
+  console.log(randomPage)
   window.location.href = randomPage;
 }

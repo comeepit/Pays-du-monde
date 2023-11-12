@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Lora:ital@1&display=swap" rel="stylesheet">
-    <!-- <script src="générateur-de-pays.js"></script> -->
+    <script src="générateur-de-pays.js" defer></script>
 </head>
 <body style="background-color: #ebe5d4;">
 
@@ -32,94 +32,103 @@
         </ul>
     </div>
 
-    <h1 style="margin-top: 1cm;">
-        Pays du Monde
-    </h1>
-
-    <img src="Image1-page d'accueil.jpg" alt="Image" style="float: left; margin-right: 0.5cm; margin-left: 5.5cm;">
-    <p class="texte">Bienvenue sur mon site d'information sur différents pays du monde qui a pour principal objectif de fournir aux visiteurs une fenêtre ouverte sur la diversité culturelle, géographique et culinaire des pays reculés de  notre planète. Il vise à éduquer, inspirer et faciliter la découverte de nouvelles destinations inédites en offrant un aperçu complet de ces pays. À travers des articles détaillés, des photographies captivantes et des informations pratiques, il permet aux voyageurs potentiels d'explorer les coutumes, les traditions, et les particularités de chaque lieu, tout en mettant en avant les sites touristiques et les monuments célèbres. De plus, en présentant la gastronomie locale et en suggérant des plats typiques à déguster, ce site aide à élargir les horizons culinaires des visiteurs. En somme, son rôle est de susciter la curiosité, de favoriser le respect des cultures étrangères et de guider les voyageurs dans la planification de leurs aventures à travers le monde.</p>
-    
-
-
-
-<h2>Les Pays</h2>
-
-
-<div class="container">
-    <div class="image-container">
-        <img src="Image5-autriche.jpg" alt="Image 1">
-        <img src="Image9-Bouthan.jpg" alt="Image 2">
+    <div class="header-div">
+        <h1 id="title" style="margin-top: 1cm;">
+            Pays du Monde
+        </h1>
+        <button class="button-4" id="randomPageButton">Génère un pays</button>
+        <script>
+            document.getElementById('randomPageButton').addEventListener('click', function() {
+                redirectToRandomPage();
+            });
+        </script>
     </div>
-    <div class="text-container">
-        <div class="text">
-            <p>l'Autriche</p>
-        </div>
-        <div class="text">
-            <p>Bouthan</p>
-        </div>
-    </div>
-</div>
 
-<div class="container">
-    <div class="image-container">
-        <img src="Image10-Islande.jpg.jpg" alt="Image 1">
-        <img src="Image6-Kirghizistan.jpg" alt="Image 2">
+    <div class="introduction" >
+        <img class="img-intro" src="Image1-page d'accueil.jpg" alt="Image" >
+        <p class="texte">Bienvenue sur mon site d'information sur différents pays du monde qui a pour principal objectif de fournir aux visiteurs une fenêtre ouverte sur la diversité culturelle, géographique et culinaire des pays reculés de  notre planète. Il vise à éduquer, inspirer et faciliter la découverte de nouvelles destinations inédites en offrant un aperçu complet de ces pays. À travers des articles détaillés, des photographies captivantes et des informations pratiques, il permet aux voyageurs potentiels d'explorer les coutumes, les traditions, et les particularités de chaque lieu, tout en mettant en avant les sites touristiques et les monuments célèbres. De plus, en présentant la gastronomie locale et en suggérant des plats typiques à déguster, ce site aide à élargir les horizons culinaires des visiteurs. En somme, son rôle est de susciter la curiosité, de favoriser le respect des cultures étrangères et de guider les voyageurs dans la planification de leurs aventures à travers le monde.</p>
     </div>
-    <div class="text-container">
-        <div class="text">
-            <p>l'Islande</p>
-        </div>
-        <div class="text">
-            <p>le Kirghizistan</p>
-        </div>
-    </div>
-</div>
+ 
+    <div style="margin-top: 50px;">
+        <h2>Les Pays</h2>
 
 
-<div class="container">
-    <div class="image-container">
-        <img src="Image8-Tanzanie.jpg" alt="Image 1">
-        <img src="Image11-madagascar.jpg" alt="Image 2">
-    </div>
-    <div class="text-container">
-        <div class="text">
-            <p>la Tanzanie</p>
+        <div class="container">
+            <div class="image-container">
+                <img class="img-pays" src="Image5-autriche.jpg" alt="Image 1">
+                <img class="img-pays" src="Image9-Bouthan.jpg" alt="Image 2">
+            </div>
+            <div class="text-container">
+                <div class="text">
+                    <p>l'Autriche</p>
+                </div>
+                <div class="text">
+                    <p>Bouthan</p>
+                </div>
+            </div>
         </div>
-        <div class="text">
-            <p>Madagascar</p>
-        </div>
-    </div>
-</div>
 
-<div class="container">
-    <div class="image-container">
-        <img src="Image3-newzeland.jpg" alt="Image 1">
-        <img src="Image4-pérou.jpg" alt="Image 2">
-    </div>
-    <div class="text-container">
-        <div class="text">
-            <p>la Nouvelle-Zélande</p>
+        <div class="container">
+            <div class="image-container">
+                <img class="img-pays" src="Image10-Islande.jpg.jpg" alt="Image 1">
+                <img class="img-pays" src="Image6-Kirghizistan.jpg" alt="Image 2">
+            </div>
+            <div class="text-container">
+                <div class="text">
+                    <p>l'Islande</p>
+                </div>
+                <div class="text">
+                    <p>le Kirghizistan</p>
+                </div>
+            </div>
         </div>
-        <div class="text">
-            <p>le Pérou</p>
-        </div>
-    </div>
-</div>
 
-<div class="container">
-    <div class="image-container">
-        <img src="Image12-Sénégale.jpg" alt="Image 1">
-        <img src="Image7-Mongolie.jpg" alt="Image 2">
-    </div>
-    <div class="text-container">
-        <div class="text">
-            <p>le Sénégal</p>
+
+        <div class="container">
+            <div class="image-container">
+                <img class="img-pays" src="Image8-Tanzanie.jpg" alt="Image 1">
+                <img class="img-pays" src="Image11-madagascar.jpg" alt="Image 2">
+            </div>
+            <div class="text-container">
+                <div class="text">
+                    <p>la Tanzanie</p>
+                </div>
+                <div class="text">
+                    <p>Madagascar</p>
+                </div>
+            </div>
         </div>
-        <div class="text">
-            <p>la Norvège</p>
+
+        <div class="container">
+            <div class="image-container">
+                <img class="img-pays" src="Image3-newzeland.jpg" alt="Image 1">
+                <img class="img-pays" src="Image4-pérou.jpg" alt="Image 2">
+            </div>
+            <div class="text-container">
+                <div class="text">
+                    <p>la Nouvelle-Zélande</p>
+                </div>
+                <div class="text">
+                    <p>le Pérou</p>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+
+        <div class="container">
+            <div class="image-container">
+                <img class="img-pays" src="Image12-Sénégale.jpg" alt="Image 1">
+                <img class="img-pays" src="Image7-Mongolie.jpg" alt="Image 2">
+            </div>
+            <div class="text-container">
+                <div class="text">
+                    <p>le Sénégal</p>
+                </div>
+                <div class="text">
+                    <p>la Norvège</p>
+                </div>
+            </div>
+        </div>
+    </div> 
 
 </body>
 </html>
