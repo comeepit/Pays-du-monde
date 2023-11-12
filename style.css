@@ -1,0 +1,114 @@
+
+.menu {
+    position: fixed; /* Fixe le menu à la position */
+    width: 170px; /* Largeur du menu, ajustez selon vos besoins */
+    height: 100%; /* Hauteur du menu, peut être la hauteur totale de la page */
+    background-color: #6e6363; /* Couleur de fond du menu */
+    color: #fff; /* Couleur du texte dans le menu */
+    border-radius: 10px;
+    margin-top: 0cm;
+
+}
+
+.menu ul {
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0;
+}
+
+/* Style des éléments de liste (li) */
+.menu li {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style des liens dans le menu */
+.menu a {
+    text-decoration: none; /* Supprime les soulignements des liens */
+    color: #f5f0e8; /* Couleur du texte des liens */
+}
+
+/* Contenu principal à droite du menu */
+.content {
+    margin-left: 220px; /* Ajustez la marge à la largeur du menu + espace de séparation */
+    padding: 20px; /* Ajoute un espace à droite du contenu principal pour le dégager du menu */
+    
+}
+.soulignement {
+    text-align: center;
+    cursor: pointer;
+    transition: text-decoration 0.3s;
+}
+.soulignement:hover {
+    text-decoration: underline;
+}
+
+h1{
+    font-family: 'Lobster Two', sans-serif;
+    text-decoration-thickness: 0.05em;
+    font-size: 50px;
+    margin-bottom: 1.25cm;
+    margin-left: 5.5cm;
+}
+
+
+
+img{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+
+p{
+    margin-left: 1cm;
+    margin-right: 2cm;
+    font-size: 17px;
+}
+
+h2{
+    margin-left: 5.5cm;
+    margin-bottom: 1.5cm;
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 40px;
+    margin-top: 1.5cm;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    margin-left: 4.5cm;
+}
+
+.image-container img {
+    margin-right: 5cm;
+    max-width: 100%;
+}
+
+/* Pour éviter un espace après la dernière image */
+.image-container img:last-child {
+    margin-right: 0;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    width: 48%;
+    margin-right: 3.80cm;
+    margin-left: 5.5cm;
+    margin-bottom: 1cm;
+}
+
+/* Pour éviter un espace après le dernier bloc de texte */
+.text:last-child {
+    margin-right: 0;
+}

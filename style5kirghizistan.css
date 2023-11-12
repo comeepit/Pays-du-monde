@@ -1,0 +1,51 @@
+.menu {
+    position: fixed; /* Fixe le menu à la position */
+    width: 170px; /* Largeur du menu, ajustez selon vos besoins */
+    height: 100%; /* Hauteur du menu, peut être la hauteur totale de la page */
+    background-color: #6e6363; /* Couleur de fond du menu */
+    color: #fff; /* Couleur du texte dans le menu */
+    border-radius: 10px;
+    margin-top: 0cm;
+
+}
+
+.menu ul {
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0;
+}
+
+/* Style des éléments de liste (li) */
+.menu li {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style des liens dans le menu */
+.menu a {
+    text-decoration: none; /* Supprime les soulignements des liens */
+    color: #F6c5c2; /* Couleur du texte des liens */
+}
+
+/* Contenu principal à droite du menu */
+.content {
+    margin-left: 220px; /* Ajustez la marge à la largeur du menu + espace de séparation */
+    padding: 20px; /* Ajoute un espace à droite du contenu principal pour le dégager du menu */
+    
+}
+.soulignement {
+    text-align: center;
+    cursor: pointer;
+    transition: text-decoration 0.3s;
+}
+.soulignement:hover {
+    text-decoration: underline;
+}
+
+h1{
+    font-family: 'Lobster Two', sans-serif;
+    text-decoration-thickness: 0.05em;
+    font-size: 50px;
+    margin-bottom: 1.25cm;
+    margin-left: 5.5cm;
+    margin-top: 2cm;
+}
